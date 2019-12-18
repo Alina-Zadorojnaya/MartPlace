@@ -1,14 +1,87 @@
-html{
-    box-sizing: border-box;
+@import '_vars';
+@import '_global';
+@import '_fonts';
+
+.header__top{
+    background-color: #eef1f3;
+    
+   
+}
+.header__top-inner{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+}
+.header__btn{
+    margin-left: auto;
+}
+.btn__seller{
+    width: 140px;
+    height: 35px;
+    background-color: #0674ec;
+    border-radius: 70px;
+    text-align: center;
+    color: #fff;
+    margin: 0 auto;
+    font-size: 14px;
+    padding: 10px 15px 10px 15px;
+    font-family: 'Quicksand', sans-serif;
+    line-height: 15px;
+}
+.header__box{
+    margin-left: 50px;
+}
+.header__box a{
+    padding: 30px;
+}
+.header__user{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.user-avotar{
+    margin-right: 20px;
+}
+.user{
+    background-color: #7c7979;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+.user-text{
+    line-height: 25px;
+}
+.user__name{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #333333;
+}
+.price{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #0674ec;
 }
 
-*,
-*::before,
-*::after{
-    box-sizing: inherit;
-}
-
-box{
-    font-display: flex;
-    border-block: 1px solid green;
+.menu{
+    align-items: center;
+    display: flex;
+    height: 80px;
+    li{
+    display: inline-block;
+    text-transform: uppercase;
+       & + li{
+        margin-left: 25px;
+       }
+    }
+    
+    a{
+        color: #333333;
+        font-size:  15px;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 400;
+    } 
 }
