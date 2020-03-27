@@ -34,19 +34,57 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-triangle-up:before {
-  content: "\e902";
+
+
+
+
+.icon-wordpress:before {
+  content: "\e916";
+  color: #21759b;
 }
-.icon-triangle-down:before {
-  content: "\e903";
+.icon-logout:before {
+  content: "\e915";
 }
-.icon-angle-right:before {
-  content: "\e901";
+.icon-home-outline:before {
+  content: "\e90c";
 }
-.icon-angle-down:before {
-  content: "\e900";
+.icon-settings:before {
+  content: "\e90f";
 }
-.icon-cart:before {
+.icon-bell:before {
+  content: "\e906";
+}
+.icon-portfolio:before {
+  content: "\e913";
+}
+.icon-briefcase:before {
+  content: "\e913";
+}
+.icon-suitcase:before {
+  content: "\e913";
+}
+.icon-work:before {
+  content: "\e913";
+}
+.icon-business:before {
+  content: "\e913";
+}
+.icon-out:before {
+  content: "\e912";
+}
+.icon-upload:before {
+  content: "\e912";
+}
+.icon-load:before {
+  content: "\e912";
+}
+.icon-outbox:before {
+  content: "\e912";
+}
+.icon-file-text:before {
+  content: "\e922";
+}
+.icon-cart1:before {
   content: "\e93a";
 }
 .icon-phone:before {
@@ -67,15 +105,76 @@
 .icon-eye:before {
   content: "\e9ce";
 }
+.icon-eject:before {
+  content: "\ea25";
+}
 .icon-radio-unchecked:before {
   content: "\ea56";
 }
-.icon-mail2:before {
-  content: "\ea84";
+.icon-wordpress1:before {
+  content: "\eab4";
 }
-.icon-heart-o:before {
-  content: "\e904";
+.icon-mail:before {
+  content: "\e90a";
+}
+.icon-email:before {
+  content: "\e90a";
+}
+.icon-letter:before {
+  content: "\e90a";
+}
+.icon-envelope:before {
+  content: "\e90a";
+}
+.icon-contact:before {
+  content: "\e90a";
+}
+.icon-trash-can:before {
+  content: "\e917";
+}
+.icon-document-list:before {
+  content: "\e90b";
+}
+.icon-mail-envelope-closed:before {
+  content: "\e907";
+}
+.icon-inbox:before {
+  content: "\e914";
+}
+.icon-credit-card:before {
+  content: "\e910";
+}
+.icon-shopping-cart:before {
+  content: "\e909";
+}
+.icon-triangle-up:before {
+  content: "\e902";
+}
+.icon-triangle-down:before {
+  content: "\e903";
+}
+.icon-user:before {
+  content: "\e911";
+}
+.icon-cart:before {
+  content: "\e908";
+}
+.icon-credit-card1:before {
+  content: "\e90d";
+}
+.icon-home:before {
+  content: "\e90e";
 }
 .icon-th-large:before {
   content: "\e905";
 }
+.icon-heart-o:before {
+  content: "\e904";
+}
+.icon-angle-right:before {
+  content: "\e901";
+}
+.icon-angle-down:before {
+  content: "\e900";
+}
+

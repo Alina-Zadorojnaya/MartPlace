@@ -108,7 +108,7 @@ $(function(){
       $('.icon-th-large').addClass('active');
       $('.icon-list').removeClass('active');
     });
-      var mixer = mixitup('.products__item-box');
+     
 
       $('.followers__slider').slick({
         dots: false,
@@ -122,5 +122,11 @@ $(function(){
 
       });
 
- 
+      $('.menu__btn').on('click', function(){
+        $('.menu__list').slideToggle();
+      });
+      $('.header-btn-menu').on('click', function(){
+        $('.header__box').toggleClass('active');
+      });
+      var mixer = mixitup('.products__item-box');
 });
